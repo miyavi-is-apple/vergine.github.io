@@ -66,7 +66,7 @@ $(function() {
             { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas3.jpg' },
             { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas4.jpg' }
         ],
-        overlay: '../vegas/overlays/07.png',
+        overlay: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/07.png',
         align:'center',
         valign:'center',
         transition: 'fade', 
