@@ -61,7 +61,7 @@ $(function() {
 $(function() {
     $('#vegas-header').vegas({
         slides: [
-            { src: 'https://miyavi-is-apple.github.io/vegas1.jpg' },
+            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas1.jpg' },
             { src: '../img/vegas2.jpg' },
             { src: '../img/vegas3.jpg' },
             { src: '../img/vegas4.jpg' }
