@@ -61,10 +61,10 @@ $(function() {
 $(function() {
     $('#vegas-header').vegas({
         slides: [
-            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/img/vegas1.jpg' },
-            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/img/vegas2.jpg' },
-            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/img/vegas3.jpg' },
-            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/img/vegas4.jpg' }
+            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas1.jpg' },
+            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas2.jpg' },
+            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas3.jpg' },
+            { src: 'https://miyavi-is-apple.github.io/miyavi-is-apple.github.io/vegas4.jpg' }
         ],
         overlay: '../vegas/overlays/07.png',
         align:'center',
