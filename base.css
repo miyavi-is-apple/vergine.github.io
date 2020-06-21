@@ -12,6 +12,7 @@ body {
   letter-spacing: .5em;
   background-color: #1a1a1a;
   font-size: 18px;
+  -webkit-text-size-adjust: 100%;
 }
 .wrap {
   overflow-x: hidden;
