@@ -49,7 +49,7 @@ $(function() {
             { src: '../img/vegas3.jpg' },
             { src: '../img/vegas4.jpg' }
         ],
-        overlay: '../vegas/overlays/07.png',
+        overlay: '../img/07.png',
         align:'center',
         valign:'center',
         transition: 'fade', 
