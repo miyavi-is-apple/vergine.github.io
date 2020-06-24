@@ -1,0 +1,36 @@
+
+.fade-in {
+  opacity : 0;
+  transform : translate(0, 50px);
+  transition : all 1.5s;
+}
+.fade-in.active {
+  opacity : 1;
+  transform : translate(0, 0);
+}
+
+.fade-in-2 {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 2s;
+}
+.fade-in-2.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.fade-in-3 {
+  opacity: 0;
+  transform: translate(0, 150px);
+  transition: all 3s;
+}
+.fade-in-3.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.vegas-timer {
+  background-color: #dae1e7;
+}
+
+
+

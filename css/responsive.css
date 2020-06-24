@@ -1,0 +1,340 @@
+/* PC・タブレット 1024px以下 */
+@media screen and (max-width: 1024px) {
+.nav_menu_li {
+  font-size: 22px;
+  margin-top: 5px;
+}
+.introduce {
+  width: 100%;
+}
+.strong {
+  font-size: 1.4em;
+}
+.strong2 {
+  font-size: 2em;
+}
+.carrier ul li {
+  font-size: .9em;
+}
+.services h3 {
+  font-size: 1.3em;
+}
+.services p {
+  font-size: .9em;
+}
+.work-l, .work-r {
+  font-size: 4em;
+  top: 60%;
+}
+}
+/* タブレット 768px以下*/
+@media screen and (max-width: 768px) {
+  .nav {
+    text-align: center;
+  }
+  .nav_menu_li {
+    font-size: 16px;
+  }
+  .br-pc {
+    display: none;
+  }
+  .br-sp {
+    display: block;
+  }
+  .sns-wrapper a {
+    right: 4px;
+  }
+  .introduce {
+    height: auto;
+    padding: 50px;
+    writing-mode: horizontal-tb;
+  }
+.introduce p {
+  margin: 0;
+  padding-bottom: 50px;
+}
+.end-name {
+  text-align: right;
+  display: block;
+  font-size: 1.2em;
+}
+.about {
+  height: auto;
+}
+.carrier {
+  margin: 50px auto;
+  padding: 30px 50px;
+}
+.carrier ul li {
+  font-size: 1em;
+}
+.skills {
+  height: auto;
+}
+.container-skill {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 500px;
+}
+.skill {
+  display: block;
+  margin-bottom: 50px;
+}
+.css, .php {
+  top: 0;
+}
+.container-service {
+  margin: 0 auto;
+  width: 500px;
+}
+.services {
+  display: block;
+  padding: 30px 50px;
+}
+.work-l, .work-r {
+  font-size: 3em;
+  top: 63%;
+}
+.form-container {
+  width: 750px;
+  margin: 0 auto;
+}
+.fa-angle-double-up {
+  right: 5px;
+  font-size: 3em;
+}
+}
+/* 480px以下 */
+@media screen and (max-width: 480px) {
+  .nav {
+    left: 30px;
+    text-align: left;
+    margin-top: -20px;
+  }
+  .nav_menu_li {
+    font-size: 14px;
+    display: block;
+  }
+  .top-title {
+    font-size: 4em;
+  }
+  .title {
+    font-size: 3.5em;
+  }
+  .title-p {
+    font-size: .9em;
+  }
+  .introduce {
+    padding: 40px;
+  }
+  .introduce p {
+    font-size: 1.0em;
+  }
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about {
+    padding-bottom: 0;
+  }
+  .about h2 {
+    background-color: rgba(47, 79, 79, 0.6);
+  }
+  .about-container {
+    margin: 0;
+    border-radius: 0;
+    padding: 30px 10px 50px;
+  }
+  .carrier {
+    padding: 30px 25px;
+  }
+  .carrier ul li {
+    font-size: .8em;
+  }
+  .container-skill {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .container-service {
+    margin: 0 auto;
+    width: 375px;
+  }
+  .services {
+    margin: 25px 0;
+  }
+  .services:last-child {
+    margin-bottom: 50px;
+  }
+  .works ul li {
+    float: none;
+    width: 100%;
+  }
+  .work-l, .work-r {
+    font-size: 4em;
+  }
+  .work-l {
+    top: 38%;
+    left: 25%;
+  }
+  .work-r {
+    top: 73%;
+    left: 8%;
+  }
+  .form-container {
+    width: 480px;
+    margin: 0 auto;
+  }
+  label {
+    font-size: .7em;
+  }
+  input, textarea {
+    padding: 10px;
+  }
+  .form-contents {
+    padding: 0 15px;
+    margin: 0;
+  }
+}
+/* 425px以下 */
+@media screen and (max-width: 425px) {
+  .header-inner {
+    padding: 25px;
+  }
+  .introduce p {
+    font-size: .9em;
+  }
+  .carrier {
+    padding: 30px 10px;
+  }
+  .carrier ul li {
+    font-size: .7em;
+  }
+  .container-skill {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .services h3 {
+    font-size: 1.2em;
+  }
+  .work {
+    background-position: right;
+  }
+  .work-l {
+    left: 22%;
+  }
+  .work-r {
+    left: 7%;
+  }
+  .form-container {
+    width: 420px;
+    margin: 0 auto;
+  }
+  label {
+    font-size: .6em;
+  }
+}
+/* iphoneX 375px以下 */
+@media screen and (max-width: 375px) {
+  .top-title {
+    font-size: 3em;
+  }
+  .title {
+    font-size: 3em;
+  }
+  .title-p {
+    font-size: .7em;
+  }
+  .introduce {
+    padding: 30px;
+  }
+  .carrier {
+    padding: 0;
+  }
+  .carrier ul li {
+    font-size: .6em;
+  }
+  .sns-wrapper ul li {
+    width: 50px;
+    height: 50px;
+  }
+  .sns-wrapper a {
+    top: -8px;
+    right: 9px;
+    font-size: .4em;
+  }
+  .container-skill {
+    width: 325px;
+    margin: 0 auto;
+  }
+  .work-l, .work-r {
+    font-size: 3em;
+  }
+  .work-l {
+    top: 40%;
+    left: 25%;
+  }
+  .form-container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  input::placeholder {
+    font-size: .7em;
+  }
+  textarea::placeholder {
+    font-size: .7em;
+  }
+  input[type="submit"] {
+    padding: 10px;
+  }
+}
+/* iphoneSE 320px以下*/
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 2em;
+  }
+  .title-p {
+    font-size: .5em;
+  }
+  .introduce {
+    padding:50px 30px;
+  }
+  .introduce p {
+    font-size: .5em;
+  }
+  .carrier ul li {
+    font-size: .4em;
+  }
+  .sns-wrapper ul li {
+    width: 40px;
+    height: 40px;
+  }
+  .sns-wrapper a {
+    right: 10px;
+    font-size: .3em;
+  }
+  .container-skill {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .container-service {
+    margin: 0 auto;
+    width: 320px;
+  }
+  .services {
+    padding: 30px;
+  }
+  .services h3 {
+    font-size: 1em;
+  }
+  .services p {
+    font-size: .8em;
+  }
+  .work-l, .work-r {
+    font-size: 2.5em;
+  }
+  .form-container {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+}
