@@ -4,8 +4,8 @@
   font-size: 22px;
   margin-top: 5px;
 }
-.introduce {
-  width: 100%;
+.introduce p{
+  margin-left: 50px;
 }
 .strong {
   font-size: 1.4em;
@@ -83,6 +83,10 @@
 .css, .php {
   top: 0;
 }
+.container-os {
+  margin: 0 auto;
+  width: 300px;
+}
 .container-service {
   margin: 0 auto;
   width: 500px;
@@ -102,6 +106,9 @@
 .fa-angle-double-up {
   right: 5px;
   font-size: 3em;
+}
+.motto {
+  font-size: 2.5em;
 }
 }
 /* 480px以下 */
@@ -162,6 +169,9 @@
   .services {
     margin: 25px 0;
   }
+  .services h3 {
+    font-size: 1.2em;
+  }
   .services:last-child {
     margin-bottom: 50px;
   }
@@ -193,6 +203,9 @@
   .form-contents {
     padding: 0 15px;
     margin: 0;
+  }
+  .motto {
+    font-size: 1.5em;
   }
 }
 /* 425px以下 */
@@ -253,6 +266,10 @@
   .carrier ul li {
     font-size: .6em;
   }
+  .miyavi {
+    width: 250px;
+    height: 260px;
+  }
   .sns-wrapper ul li {
     width: 50px;
     height: 50px;
@@ -265,6 +282,9 @@
   .container-skill {
     width: 325px;
     margin: 0 auto;
+  }
+  .other h3 {
+    font-size: 1.2em;
   }
   .work-l, .work-r {
     font-size: 3em;
@@ -285,6 +305,9 @@
   }
   input[type="submit"] {
     padding: 10px;
+  }
+  .motto {
+    font-size: 1.3em;
   }
 }
 /* iphoneSE 320px以下*/
@@ -316,6 +339,9 @@
     width: 280px;
     margin: 0 auto;
   }
+  .other h3 {
+    font-size: .9em;
+  }
   .container-service {
     margin: 0 auto;
     width: 320px;
@@ -336,5 +362,7 @@
     width: 320px;
     margin: 0 auto;
   }
-
+  .motto {
+    font-size: 1.2em;
+  }
 }
