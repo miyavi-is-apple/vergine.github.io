@@ -99,6 +99,9 @@
   font-size: 3em;
   top: 63%;
 }
+.work-r {
+  right: 0;
+}
 .form-container {
   width: 750px;
   margin: 0 auto;
@@ -227,16 +230,19 @@
     margin: 0 auto;
   }
   .services h3 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .work {
     background-position: right;
   }
+  .work-l, .work-r {
+    font-size: 3.5em;
+  }
   .work-l {
-    left: 22%;
+    left: 27%;
   }
   .work-r {
-    left: 7%;
+    left: 0;
   }
   .form-container {
     width: 420px;
@@ -250,6 +256,7 @@
 @media screen and (max-width: 375px) {
   .top-title {
     font-size: 3em;
+    margin-top: 200px;
   }
   .title {
     font-size: 3em;
@@ -258,7 +265,7 @@
     font-size: .7em;
   }
   .introduce {
-    padding: 30px;
+    padding: 50px 20px;
   }
   .carrier {
     padding: 0;
@@ -284,7 +291,7 @@
     margin: 0 auto;
   }
   .other h3 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .work-l, .work-r {
     font-size: 3em;
@@ -363,6 +370,6 @@
     margin: 0 auto;
   }
   .motto {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }

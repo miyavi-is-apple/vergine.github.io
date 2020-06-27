@@ -6,11 +6,11 @@
   padding: 0;
   }
 body {
-  font-family: 'TsukuARdGothic-Regular','Papyrus','Verdana', sans-serif;
   line-height: 1.5;
   letter-spacing: .5em;
   background-color: #dae1e7;
   font-size: 18px;
+  font-family: serif;
 }
 .wrap {
   overflow-x: hidden;
@@ -52,14 +52,13 @@ li	{
 .title {
   padding: 50px 0 20px 0;
   font-size: 4em;
-  font-family: 'Papyrus';
+  font-family: 'Stoke', serif;
   color: #fff;
   text-shadow: 1px 2px 2px #1a1a1a;
 }
 .title-p {
   margin: 0 0 50px 0;
-color: #fff;
-  font-family: 'TsukuARdGothic-Regular';
+  color: #fff;
 }
 /* font awesome */
 .fab, .fas {
@@ -188,9 +187,9 @@ color: #fff;
 }
 .nav_menu_li {
   font-size: 24px;
+  font-family: 'Stoke', serif;
   display: inline-block;
   margin-right: 30px;
-  font-family: 'Papyrus';
   letter-spacing: .3em;
 } 
 .nav.active {
@@ -208,9 +207,10 @@ header {
 .top-title {
   margin: 0 auto;
   font-size: 5em;
+  font-family: 'Stoke', serif;
   margin-top: 150px;
-  font-family:'TsukuARdGothic-Regular';
   text-shadow: 2px 5px 10px #1a1a1a;
+
 }
 /* introduce */
 .introduce {
@@ -220,7 +220,6 @@ header {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   text-orientation: upright; 
-  font-family: 'TsukuARdGothic-Regular';
   padding: 50px 100px;
 }
 .introduce p {
@@ -285,8 +284,8 @@ header {
 }
 .skill h3 {
   padding-left: 30px;
-  font-family: 'Papyrus';
   font-weight: bold;
+  font-family: 'Stoke', serif;
   color: #dae1e7;
 }
 .skill-ds {
@@ -353,8 +352,10 @@ header {
   color: #fff;
 }
 .services h3 {
+  font-family: 'Stoke', serif;
   font-weight: bold;
   color: #dae1e7;
+  font-size: 1.4em;
 }
 .services p {
   margin-top: 20px;
@@ -379,9 +380,9 @@ header {
 }
 .work-l, .work-r {
   font-size: 6em;
+  font-family: 'Stoke', serif;
   color: #ddd;
   text-shadow: 2px 5px 10px #1a1a1a;
-  font-family: 'Papyrus';
 }
 .work-l {
   position: absolute;
@@ -391,7 +392,7 @@ header {
 .work-r {
   position: absolute;
   top: 52%;
-  right:7%;
+  right:2%;
 }
 /* contact */
 .contact {
@@ -430,8 +431,7 @@ input[type="submit"]:hover {
 /* footer */
 footer {
   background-color: #1a1a1a;
-  padding: 50px 0;
-  font-family: 'Papyrus';
+  padding: 30px 0;
   position: relative;
   height: auto;
 }
@@ -440,6 +440,7 @@ footer {
   font-size: 3em;
   letter-spacing: .5em;
   color: #dae1e7;
+  font-family: 'Stoke', serif;
 }
 .copy {
   color: #fff;
