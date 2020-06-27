@@ -10,7 +10,7 @@ body {
   letter-spacing: .5em;
   background-color: #dae1e7;
   font-size: 18px;
-  font-family: serif;
+  font-family: 'Stoke', serif;
 }
 .wrap {
   overflow-x: hidden;
