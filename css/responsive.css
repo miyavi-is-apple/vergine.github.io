@@ -170,6 +170,7 @@
   }
   .services {
     margin: 25px 0;
+    padding: 30px;
   }
   .services h3 {
     font-size: 1.2em;
@@ -292,6 +293,9 @@
   .other h3 {
     font-size: 1em;
   }
+  .services {
+    padding: 25px;
+  }
   .work-l, .work-r {
     font-size: 3em;
   }
@@ -352,9 +356,7 @@
     margin: 0 auto;
     width: 320px;
   }
-  .services {
-    padding: 30px;
-  }
+
   .services h3 {
     font-size: 1em;
   }

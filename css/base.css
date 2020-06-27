@@ -341,7 +341,7 @@ header {
 }
 .services {
   margin: 50px auto;
-  padding: 20px;
+  padding: 20px 10px;
   transition: all .5s ease-in-out;
   background-color: rgba(47, 79, 79, .6);
 }
