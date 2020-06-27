@@ -264,9 +264,6 @@
   .title-p {
     font-size: .7em;
   }
-  .introduce {
-    padding: 50px 20px;
-  }
   .carrier {
     padding: 0;
   }
@@ -291,7 +288,7 @@
     margin: 0 auto;
   }
   .other h3 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .services {
     padding: 25px;
@@ -317,7 +314,7 @@
     padding: 10px;
   }
   .motto {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 /* iphoneSE 320px以下*/
@@ -328,11 +325,8 @@
   .title-p {
     font-size: .5em;
   }
-  .introduce {
-    padding:50px 30px;
-  }
   .introduce p {
-    font-size: .5em;
+    font-size: .7em;
   }
   .carrier ul li {
     font-size: .4em;
@@ -350,15 +344,11 @@
     margin: 0 auto;
   }
   .other h3 {
-    font-size: .9em;
+    font-size: 1.3em;
   }
   .container-service {
     margin: 0 auto;
     width: 320px;
-  }
-
-  .services h3 {
-    font-size: 1em;
   }
   .services p {
     font-size: .8em;
