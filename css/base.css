@@ -10,7 +10,7 @@ body {
   letter-spacing: .5em;
   background-color: #dae1e7;
   font-size: 18px;
-  font-family: 'Stoke', serif;
+  font-family: serif,  'M PLUS Rounded 1c', 'Sawarabi Mincho' ;
 }
 .wrap {
   overflow-x: hidden;
