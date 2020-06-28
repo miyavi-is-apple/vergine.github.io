@@ -170,7 +170,7 @@
   }
   .services {
     margin: 25px 0;
-    padding: 30px;
+    padding: 25px;
   }
   .services h3 {
     font-size: 1.2em;
@@ -187,18 +187,15 @@
   }
   .work-l {
     top: 38%;
-    left: 25%;
+    left: 23%;
   }
   .work-r {
     top: 73%;
-    left: 8%;
+    left: 3%;
   }
   .form-container {
     width: 480px;
     margin: 0 auto;
-  }
-  label {
-    font-size: .7em;
   }
   input, textarea {
     padding: 10px;
@@ -239,7 +236,7 @@
     font-size: 3.5em;
   }
   .work-l {
-    left: 27%;
+    left: 24%;
   }
   .work-r {
     left: 0;
@@ -247,9 +244,6 @@
   .form-container {
     width: 420px;
     margin: 0 auto;
-  }
-  label {
-    font-size: .6em;
   }
 }
 /* iphoneX 375px以下 */

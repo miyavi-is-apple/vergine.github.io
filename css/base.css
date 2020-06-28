@@ -88,7 +88,6 @@ li	{
   color: darkslateblue;
   position: relative;
   top: 100px;
-  right: 10px;
 }
 .wordpress {
   color: cornflowerblue;
@@ -281,7 +280,6 @@ header {
   margin-bottom: 70px;
 }
 .skill h3 {
-  padding-left: 30px;
   font-weight: bold;
   font-family: 'Stoke', serif;
   color: #dae1e7;
