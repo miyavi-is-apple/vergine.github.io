@@ -197,12 +197,21 @@
     width: 480px;
     margin: 0 auto;
   }
-  input, textarea {
-    padding: 10px;
-  }
   .form-contents {
     padding: 0 15px;
     margin: 0;
+  }
+  input, textarea {
+    padding: 10px;
+  }
+  label {
+    font-size: .8em;
+  }
+  input::placeholder {
+    font-size: .8em;
+  }
+  textarea::placeholder {
+    font-size: .8em;
   }
   .motto {
     font-size: 1.5em;
@@ -245,6 +254,7 @@
     width: 420px;
     margin: 0 auto;
   }
+
 }
 /* iphoneX 375px以下 */
 @media screen and (max-width: 375px) {
