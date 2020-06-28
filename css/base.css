@@ -10,7 +10,7 @@ body {
   letter-spacing: .5em;
   background-color: #dae1e7;
   font-size: 18px;
-  font-family: 'Noto Serif JP', 'Sawarabi Mincho', serif ;
+  font-family:'Noto Serif JP',  'Noto Sans JP', serif;
 }
 .wrap {
   overflow-x: hidden;
@@ -96,7 +96,6 @@ li	{
 .fa-vuejs {
   color: #4fc08d;
 }
-
 .fa-react {
   color: #8be4f3;
 }
@@ -210,7 +209,6 @@ header {
   font-family: 'Stoke', serif;
   margin-top: 150px;
   text-shadow: 2px 5px 10px #1a1a1a;
-
 }
 /* introduce */
 .introduce {
