@@ -46,7 +46,7 @@
   }
   .introduce {
     height: auto;
-    padding: 50px;
+    padding: 50px 25px;
     writing-mode: horizontal-tb;
   }
 .introduce p {
@@ -135,7 +135,7 @@
     font-size: .9em;
   }
   .introduce {
-    padding: 50px 0 50px 10px;
+    padding: 50px 10px;
   }
   .introduce p {
     font-size: 1.0em;
